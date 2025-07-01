@@ -13,7 +13,7 @@ const Home = () => {
         </button>
       </div>
       <div className="w-1/2 h-full">
-        <div className="h-[89%] w-2/3 mx-auto mt-[9%] bg-[#FAF9F6] rounded-t-full overflow-hidden">
+        <div className="h-[89.5%] w-2/3 mx-auto mt-[9%] bg-[#FAF9F6] rounded-t-full overflow-hidden">
           <img
             className="object-cover w-full h-full"
             src="https://images.unsplash.com/photo-1692604947955-ea7c8e41fa8c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTZ8fDRrJTIwaW1hZ2UlMjBwbGFudCUyMGF0JTIwaG9tZXxlbnwwfHwwfHx8MA%3D%3D"
