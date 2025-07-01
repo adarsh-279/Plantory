@@ -1,1 +1,6 @@
 @import "tailwindcss";
+
+@font-face {
+    font-family: Tothepoint;
+    src: url(./assets/fonts/ToThePointRegular-n9y4.ttf);
+}
