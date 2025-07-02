@@ -4,6 +4,7 @@ import Home from './components/Home'
 import CardComponent from './components/CardComponent'
 import Banner from './components/Banner'
 import Tips from './components/Tips'
+import PreFooter from './components/PreFooter'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <CardComponent />
       <Banner />
       <Tips />
+      <PreFooter />
     </>
   )
 }
