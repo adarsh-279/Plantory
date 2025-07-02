@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import CardComponent from './components/CardComponent'
 import Banner from './components/Banner'
+import Tips from './components/Tips'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Home />
       <CardComponent />
       <Banner />
+      <Tips />
     </>
   )
 }
