@@ -5,6 +5,7 @@ import CardComponent from './components/CardComponent'
 import Banner from './components/Banner'
 import Tips from './components/Tips'
 import PreFooter from './components/PreFooter'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Banner />
       <Tips />
       <PreFooter />
+      <Footer />
     </>
   )
 }
