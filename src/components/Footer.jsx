@@ -17,8 +17,19 @@ const Footer = () => {
             <a href="#">Facebook</a>
           </div>
         </div>
-        <div className="w-1/3 h-full"></div>
-        <div className="w-1/3 h-full"></div>
+        <div className="w-1/3 h-full flex flex-col text-center justify-center">
+          <h1 className="mb-3">Contacts</h1>
+          <div className="flex flex-col  opacity-70">
+            <h1>+91 9876543210</h1>
+            <h1>contact@plantory.com</h1>
+          </div>
+        </div>
+        <div className="w-1/3 h-full pt-2 flex flex-col items-center justify-evenly opacity-70">
+          <a href="#">Home</a>
+          <a href="#">Category</a>
+          <a href="#">Tips</a>
+          <a href="#">About</a>
+        </div>
       </div>
     </div>
   );
