@@ -46,10 +46,17 @@ const Tips = () => {
     ];
 
     return (
-        <>
-
-        </>
-      );
+      <>
+        <h1 className="w-full text-9xl px-4 py-3 pt-30 flex items-center justify-center font-[Tothepoint] bg-[#FAF9F6]">
+          Steps to start taking care of your plants
+        </h1>
+        <div className="w-full h-full px-25 py-5 gap-15 bg-[#FAF9F6] flex flex-wrap">
+          {plantTip.map((item, index) => {
+            return <Tip val={item} key={index} />;
+          })}
+        </div>
+      </>
+    );
     };
 
 export default Tips
