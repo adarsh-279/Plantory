@@ -12,11 +12,10 @@ const Navbar = () => {
       </div>
 
       <div className="w-1/2 text-3xl pt-2 flex items-center justify-evenly">
-        <a href="#">Home</a>
-        <a href="#">Tips</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
-        <a href="#">Chat</a>
+        <a href="#home">Home</a>
+        <a href="#category">Category</a>
+        <a href="#tips">Tips</a>
+        <a href="#contact">Contact</a>
       </div>
 
       <div className="flex items-center gap-5">

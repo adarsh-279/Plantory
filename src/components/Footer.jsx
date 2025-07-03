@@ -17,7 +17,10 @@ const Footer = () => {
             <a href="#">Facebook</a>
           </div>
         </div>
-        <div className="w-1/3 h-full flex flex-col text-center justify-center">
+        <div
+          id="contact"
+          className="w-1/3 h-full flex flex-col text-center justify-center"
+        >
           <h1 className="mb-3">Contacts</h1>
           <div className="flex flex-col  opacity-70">
             <h1>+91 9876543210</h1>
@@ -25,10 +28,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-1/3 h-full pt-2 flex flex-col items-center justify-evenly opacity-70">
-          <a href="#">Home</a>
-          <a href="#">Category</a>
-          <a href="#">Tips</a>
-          <a href="#">About</a>
+          <a href="#home">Home</a>
+          <a href="#category">Category</a>
+          <a href="#tips">Tips</a>
         </div>
       </div>
     </div>

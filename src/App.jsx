@@ -7,6 +7,7 @@ import Banner from './components/Banner'
 import Tips from './components/Tips'
 import PreFooter from './components/PreFooter'
 import Footer from './components/Footer'
+import Routing from './utils/Routing';
 
 const App = () => {
 
@@ -22,7 +23,7 @@ const App = () => {
       <PreFooter />
       <Footer />
     </>
-  )
+  );
 }
 
 export default App

@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const Home = () => {
   return (
-    <div className="w-full h-[89vh] bg-[#3E4E2C] flex">
+    <div id="home" className="w-full h-[89vh] bg-[#3E4E2C] flex">
       <div className="w-1/2 h-full flex items-center flex-col pt-30 pl-13 gap-10">
         <h1 className="text-8xl text-white font-[LoveDays]">
           Helping Gardens Speak, One Story at a Time. 🌿✨
