@@ -1,4 +1,5 @@
 import React from 'react'
+import LocomotiveScroll from "locomotive-scroll";
 import Navbar from './components/Navbar'
 import Home from './components/Home'
 import CardComponent from './components/CardComponent'
@@ -8,6 +9,9 @@ import PreFooter from './components/PreFooter'
 import Footer from './components/Footer'
 
 const App = () => {
+
+  const locomotiveScroll = new LocomotiveScroll();
+
   return (
     <>
       <Navbar />
