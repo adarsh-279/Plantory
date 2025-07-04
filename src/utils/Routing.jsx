@@ -1,21 +1,17 @@
-import React from 'react'
-import { Route, Routes } from 'react-router-dom'
-import Home from '../components/Home'
-import Tips from '../components/Tips'
-import CardComponent from '../components/CardComponent'
-import Footer from '../components/Footer'
+import React from "react";
+import { Route, Routes } from "react-router-dom";
+import CardPage from "../components/CardPage";
+import Home from "../components/Home";
 
 const Routing = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/category" element={<CardComponent/>} />
-        <Route path="/tips" element={<Tips />} />
-        <Route path="/contact" element={<Footer />} />
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/:title" element={<CardPage />}></Route>
       </Routes>
     </>
   );
-}
+};
 
-export default Routing
+export default Routing;
