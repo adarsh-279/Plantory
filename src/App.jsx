@@ -16,7 +16,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Routing />
+      <Home />
       <CardComponent />
       <Banner />
       <Tips />
