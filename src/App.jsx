@@ -1,10 +1,6 @@
 import React from 'react'
 import LocomotiveScroll from "locomotive-scroll";
 import Navbar from './components/Navbar'
-import Home from './components/Home'
-import CardComponent from './components/CardComponent'
-import Banner from './components/Banner'
-import Tips from './components/Tips'
 import PreFooter from './components/PreFooter'
 import Footer from './components/Footer'
 import Routing from './utils/Routing';
@@ -16,10 +12,7 @@ const App = () => {
   return (
     <>
       <Navbar />
-      <Home />
-      <CardComponent />
-      <Banner />
-      <Tips />
+      <Routing />
       <PreFooter />
       <Footer />
     </>
