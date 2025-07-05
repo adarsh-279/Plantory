@@ -1,5 +1,6 @@
 import React from "react";
 import { ImLeaf } from "react-icons/im";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -28,9 +29,17 @@ const Footer = () => {
           </div>
         </div>
         <div className="w-1/3 h-full pt-2 flex flex-col items-center justify-evenly opacity-70">
-          <a href="#home">Home</a>
-          <a href="#category">Category</a>
-          <a href="#tips">Tips</a>
+          <ul className="flex flex-col items-center justify-center gap-5">
+            <NavLink to="">
+              <li>Home</li>
+            </NavLink>
+            <NavLink to="/category">
+              <li>Category</li>
+            </NavLink>
+            <NavLink to="/tips">
+              <li>Tips</li>
+            </NavLink>
+          </ul>
         </div>
       </div>
     </div>

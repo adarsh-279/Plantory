@@ -2,6 +2,7 @@ import React from "react";
 import { ImLeaf } from "react-icons/im";
 import { FaHeart } from "react-icons/fa6";
 import { FaUserAlt } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -12,10 +13,17 @@ const Navbar = () => {
       </div>
 
       <div className="w-1/2 text-3xl pt-2 flex items-center justify-evenly">
-        <a href="#home">Home</a>
-        <a href="#category">Category</a>
-        <a href="#tips">Tips</a>
-        <a href="#contact">Contact</a>
+        <ul className="flex flex-row items-center justify-center gap-15">
+          <NavLink to="">
+            <li>Home</li>
+          </NavLink>
+          <NavLink to="/category">
+            <li>Category</li>
+          </NavLink>
+          <NavLink to="/tips">
+            <li>Tips</li>
+          </NavLink>
+        </ul>
       </div>
 
       <div className="flex items-center gap-5">
