@@ -1,5 +1,6 @@
 import React from "react";
 import Cards from "./Cards";
+import { motion } from "framer-motion";
 
 const CardComponent = () => {
   const plantCategory = [
@@ -47,14 +48,25 @@ const CardComponent = () => {
 
   return (
     <>
-      <h1 id="category" className="w-full text-9xl px-4 py-3 pt-20 flex items-center justify-center font-[Tothepoint] bg-[#FAF9F6]">
+      <motion.h1
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        id="category"
+        className="w-full text-9xl px-4 py-3 pt-20 flex items-center justify-center font-[Tothepoint] bg-[#FAF9F6]"
+      >
         Plant Categories
-      </h1>
-      <div className="w-full h-full px-25 py-5 gap-15 bg-[#FAF9F6] flex flex-wrap">
-              {plantCategory.map((item, index) => {
-                return <Cards val={item} key={index} />;
+      </motion.h1>
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        className="w-full h-full px-25 py-5 gap-15 bg-[#FAF9F6] flex flex-wrap"
+      >
+        {plantCategory.map((item, index) => {
+          return <Cards val={item} key={index} />;
         })}
-      </div>
+      </motion.div>
     </>
   );
 };
