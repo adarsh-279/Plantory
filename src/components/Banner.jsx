@@ -1,5 +1,6 @@
 import React from "react";
 import { FaArrowTurnDown } from "react-icons/fa6";
+import { motion } from "framer-motion";
 
 const Banner = () => {
   return (
@@ -21,9 +22,12 @@ const Banner = () => {
             and care guides. From indoor to herbal plants, start your green
             journey today.
           </p>
-          <button className="px-6 py-4 mt-15 bg-[#F9A826] rounded-2xl flex items-center">
+          <motion.button
+            whileHover={{ scale: 0.9 }}
+            className="px-6 py-4 mt-15 bg-[#F9A826] rounded-2xl flex items-center"
+          >
             Explore Below <FaArrowTurnDown className="ml-5 mt-1" />
-          </button>
+          </motion.button>
         </div>
       </div>
     </div>

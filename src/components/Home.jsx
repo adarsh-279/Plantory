@@ -19,10 +19,10 @@ const Home = () => {
           <h1 className="text-8xl text-white font-[LoveDays]">
             Helping Gardens Speak, One Story at a Time. 🌿✨
           </h1>
-          <button className="px-6 py-4 bg-[#F9A826] rounded-2xl -ml-140 flex items-center">
+          <motion.button whileHover={{scale:0.9}} className="px-6 py-4 bg-[#F9A826] rounded-2xl -ml-140 flex items-center">
             Explore Below
             <FaArrowTurnDown className="ml-5 mt-1" />
-          </button>
+          </motion.button>
         </div>
         <div className="w-1/2 h-full">
           <div className="h-[89.5%] w-2/3 mx-auto mt-[9%] bg-[#FAF9F6] rounded-t-full overflow-hidden">

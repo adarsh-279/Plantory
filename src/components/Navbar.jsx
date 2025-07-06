@@ -21,13 +21,13 @@ const Navbar = () => {
       <div className="w-1/2 text-3xl pt-2 flex items-center justify-evenly">
         <ul className="flex flex-row items-center justify-center gap-15">
           <NavLink to="">
-            <li>Home</li>
+            <motion.li whileHover={{scale:1.12}}>Home</motion.li>
           </NavLink>
           <NavLink to="/category">
-            <li>Category</li>
+            <motion.li whileHover={{scale:1.12}}>Category</motion.li>
           </NavLink>
           <NavLink to="/tips">
-            <li>Tips</li>
+            <motion.li whileHover={{scale:1.12}}>Tips</motion.li>
           </NavLink>
         </ul>
       </div>
