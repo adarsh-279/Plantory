@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowTurnDown } from "react-icons/fa6";
 
 const Banner = () => {
   return (
@@ -22,7 +22,7 @@ const Banner = () => {
             journey today.
           </p>
           <button className="px-6 py-4 mt-15 bg-[#F9A826] rounded-2xl flex items-center">
-            Explore <FaArrowRightLong className="ml-5 mt-1" />
+            Explore Below <FaArrowTurnDown className="ml-5 mt-1" />
           </button>
         </div>
       </div>

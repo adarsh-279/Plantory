@@ -1,5 +1,5 @@
 import React from "react";
-import { FaArrowRightLong } from "react-icons/fa6";
+import { FaArrowTurnDown } from "react-icons/fa6";
 import CardComponent from "./CardComponent";
 import Banner from "./Banner"
 import Tips from "./Tips";
@@ -13,7 +13,8 @@ const Home = () => {
             Helping Gardens Speak, One Story at a Time. 🌿✨
           </h1>
           <button className="px-6 py-4 bg-[#F9A826] rounded-2xl -ml-140 flex items-center">
-            Explore <FaArrowRightLong className="ml-5 mt-1" />
+            Explore Below
+            <FaArrowTurnDown className="ml-5 mt-1" />
           </button>
         </div>
         <div className="w-1/2 h-full">

@@ -13,7 +13,7 @@ const Cards = ({ val }) => {
         <h1 className="text-3xl text-[#2E2E2E] font-[Poppins]">{val.title}</h1>
         <NavLink
           className="px-6 py-4 bg-[#6DA34D] rounded-2xl"
-          to={`/${val.title}`}
+          to={`/${val.title.replace(/[^a-zA-Z0-9-]/g, '')}`}
         >
           Explore Category
         </NavLink>

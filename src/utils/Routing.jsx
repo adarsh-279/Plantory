@@ -27,7 +27,7 @@ const Routing = () => {
         <Route path="/Flowering" element={<Flowering />} />
         <Route path="/Decorative" element={<Decorative />} />
         <Route path="/LowMaintenance" element={<LowMaintenance />} />
-        <Route path="/PetFriendly" element={<PetFriendly />} />
+        <Route path="/Pet-Friendly" element={<PetFriendly />} />
         <Route path="/RareExotic" element={<RareExotic />} />
       </Routes>
     </>
