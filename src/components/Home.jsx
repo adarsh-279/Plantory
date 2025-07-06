@@ -3,11 +3,18 @@ import { FaArrowTurnDown } from "react-icons/fa6";
 import CardComponent from "./CardComponent";
 import Banner from "./Banner"
 import Tips from "./Tips";
+import { motion } from "framer-motion";
 
 const Home = () => {
   return (
     <>
-      <div id="home" className="w-full h-[89vh] bg-[#3E4E2C] flex">
+      <motion.div
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.5 }}
+        id="home"
+        className="w-full h-[89vh] bg-[#3E4E2C] flex"
+      >
         <div className="w-1/2 h-full flex items-center flex-col pt-30 pl-13 gap-10">
           <h1 className="text-8xl text-white font-[LoveDays]">
             Helping Gardens Speak, One Story at a Time. 🌿✨
@@ -26,7 +33,7 @@ const Home = () => {
             />
           </div>
         </div>
-      </div>
+      </motion.div>
       <CardComponent />
       <Banner />
       <Tips />
