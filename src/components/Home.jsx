@@ -16,8 +16,8 @@ const Home = () => {
         className="w-full h-[77vh] lg:h-[88.8vh] bg-[#3E4E2C] flex"
       >
         <div>
-          <div className="w-full lg:w-1/2 h-auto lg:h-full flex items-center flex-col pt-15 lg:pt-30 lg:pl-13 lg:gap-10">
-            <h1 className="text-5xl pl-8 lg:text-8xl text-white font-[LoveDays]">
+          <div className="w-[90%] lg:w-1/2 h-auto lg:h-full flex items-center flex-col pt-15 lg:pt-30 lg:pl-13 lg:gap-10">
+            <h1 className="text-5xl pl-8 lg:text-[12.5vh] text-white font-[LoveDays]">
               Helping Gardens Speak, One Story at a Time. 🌿✨
             </h1>
             <motion.button
@@ -28,7 +28,7 @@ const Home = () => {
               <FaArrowTurnDown className="ml-5 mt-1" />
             </motion.button>
           </div>
-          <div className="w-full lg:w-1/2 h-auto bottom-0 lg:h-full lg:-mt-162 lg:ml-200">
+          <div className="w-[90%] lg:w-1/2 h-auto -mt-2 ml-[2.25vh] lg:h-full lg:-mt-162 lg:ml-190">
             <div className="h-[89.5%] w-2/3 mx-auto mt-[9.3%] lg:mt-[9%] bg-[#FAF9F6] rounded-t-full overflow-hidden">
               <img
                 className="object-cover w-full h-full"
