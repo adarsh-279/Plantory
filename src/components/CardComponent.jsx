@@ -53,7 +53,7 @@ const CardComponent = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
         id="category"
-        className="w-full text-9xl px-4 py-3 pt-20 flex items-center justify-center font-[Tothepoint] bg-[#FAF9F6]"
+        className="w-full text-8xl lg:text-9xl px-4 py-3 pt-10 lg:pt-20 flex items-center justify-center font-[Tothepoint] bg-[#FAF9F6]"
       >
         Plant Categories
       </motion.h1>
@@ -61,7 +61,7 @@ const CardComponent = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 0.5 }}
-        className="w-full h-full px-25 py-5 gap-15 bg-[#FAF9F6] flex flex-wrap"
+        className="w-full h-full px-4 py-3 gap-5.5 lg:px-25 lg:py-5 lg:gap-15 bg-[#faf9f6] flex flex-wrap"
       >
         {plantCategory.map((item, index) => {
           return <Cards val={item} key={index} />;
