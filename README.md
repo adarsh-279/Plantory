@@ -28,6 +28,7 @@ Plantory is a beautifully animated, React-based gardening assistant that makes i
   - Rare & Exotic
 - 💡 *Tips* for on the go suggestions
 - 💬 *Chatbot* for user queries and gardening assistance
+- 🌐 *Fully Responsive* across devices
 - 🛠 *Optimized Page Routing* for faster performance
 
 ---
@@ -50,7 +51,7 @@ Plantory is a beautifully animated, React-based gardening assistant that makes i
 
 ## 🖼️ Website's Screenshot
 
-![plantory png](https://github.com/user-attachments/assets/74d90748-3d46-4b76-98de-242ac9fef138)
+![Plantory](https://github.com/user-attachments/assets/0b5989f4-ff8d-47ab-ba80-35e3364f4144)
 
 ---
 
