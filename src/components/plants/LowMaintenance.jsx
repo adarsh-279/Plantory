@@ -61,7 +61,7 @@ const LowMaintenance = () => {
 
   return (
     <>
-      <div className="w-full h-full px-25 py-5 pt-20 gap-15 bg-[#FAF9F6] flex flex-wrap">
+      <div className="w-full h-full px-4 py-3 pt-10 gap-4 lg:px-25 lg:py-5 lg:pt-20 lg:gap-15 bg-[#FAF9F6] flex flex-wrap">
         {plantDetails.map((item, index) => {
           return <PlantDetails val={item} key={index} />;
         })}
