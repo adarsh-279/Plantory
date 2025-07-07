@@ -53,7 +53,7 @@ const Tips = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
           id="tips"
-          className="w-full text-9xl px-4 py-3 pt-30 flex items-center justify-center font-[Tothepoint] bg-[#FAF9F6]"
+          className="w-full text-[8.7vh] lg:text-9xl px-4 py-3 pt-10 pb-7 lg:pt-20 lg:pb-10 leading-18 flex items-center justify-center text-center font-[Tothepoint] bg-[#FAF9F6]"
         >
           Steps to start taking care of your plants
         </motion.h1>
@@ -61,7 +61,7 @@ const Tips = () => {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5 }}
-          className="w-full h-full px-25 py-5 gap-15 bg-[#FAF9F6] flex flex-wrap"
+          className="w-full h-full px-4 py-3 gap-5.5 lg:px-25 lg:py-5 lg:gap-15 bg-[#faf9f6] flex flex-wrap"
         >
           {plantTip.map((item, index) => {
             return <Tip val={item} key={index} />;
